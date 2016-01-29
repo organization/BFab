@@ -1,0 +1,10 @@
+str 2 "Hello World"
+set 0 11
+set 1 2
+for 0
+    mem 1
+    prt
+    memc 0
+    add 1 1
+    add 0 -1
+rof
