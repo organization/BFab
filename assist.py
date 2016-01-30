@@ -22,7 +22,7 @@ macro start <name>: 매크로의 시작입니다. 매크로 이름은 <name>입�
 macro end: 매크로의 끝입니다.
 ;<any string>: 주석입니다.
 
-BF-Assist를 BF로 변환 시, 실제 메모리 번지는 BF-Assist 코드에 명시된 메모리 주소의 두 배 + 16 값을 가지니 주의하세요.
+BF-Assist를 BF로 변환 시, 실제 메모리 번지는 BF-Assist 코드에 명시된 메모리 주소와 다르니 주의하세요.
 '''
 
 class Compiler:
